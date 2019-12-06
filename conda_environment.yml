@@ -1,0 +1,27 @@
+name: gan
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.6.8
+  - pytorch=1.2.0
+  - cudatoolkit=10.0
+  - torchvision
+  - tensorboardx
+  - jupyter
+  - matplotlib
+  - notebook
+  - opencv
+  - scipy
+  - pytest
+  - pyyaml
+  - pycocotools
+  - pip
+  - pip:
+    - torchsummary
+    - tb-nightly  # https://www.endtoend.ai/pytorch-tensorboard
+    - future      # until Tensorboard v1.14 released
+    
+
+
