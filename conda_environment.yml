@@ -8,6 +8,7 @@ dependencies:
   - pytorch=1.2.0
   - cudatoolkit=10.0
   - torchvision
+  - torchaudio
   - tensorboardx
   - jupyter
   - matplotlib
@@ -22,6 +23,7 @@ dependencies:
     - torchsummary
     - tb-nightly  # https://www.endtoend.ai/pytorch-tensorboard
     - future      # until Tensorboard v1.14 released
+    - youtube_dl
     
 
 
